@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*main*/
+
+main {
+
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+}
+
+/*menu*/
+
+.menu {
+    background-color:rgba(189, 178, 178, 0.411);
+    list-style: none;
+    margin-top: 0px;
+}
+
+.menu li {
+    margin: 15px 40px 15px 0px;
+}
+
+.pesquisa {
+    margin: auto;
+}
+
+.pesquisa input {
+    width: 150px;
+    height: 30px;
+}
+
+.pesquisa button {
+    height: 30px;
+    background-color: gray;
+    color: white;
+    margin: 0px;
+}
+
+.conteudo {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    margin-left: 220px;
+}
+
+/*destaque*/
+
+.destaque {
+    background-color: #e9ecef;
+    width: 1000px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.first h1 {
+    font-size: 50px;
+    margin: 30px;
+}
+
+.first p {
+    margin-left: 30px;
+}
+
+.first h4 {
+    margin-left: 30px;
+}
+
+.first button {
+    background-color: #007bff;
+    margin-left: 25px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+}
+
+/*card*/
+
+.card {
+    display: flex;
+    margin-top: 50px;
+}
+
+.morango {
+    background-color: #e9ecef;
+    width: 300px;
+    height: 350px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+.morango img {
+    width: 200px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.morango h3 {
+    margin-left: 75px;
+    margin-top: 3px;
+}
+
+.morango p{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.morango button {
+    margin-left: 60px;
+}
+
+/*contato*/
+.contato {
+    margin: 30px 10px 5px 100px;
+    width: 250px;
+    height: 200px;
+}
+
+.contato input{
+    width: 200px;
+    height: 30px;
+}
+
+.contato h5{
+    font-size: 15px;
+}
+
+.contato button {
+    margin: 30px 0px 0px 55px;
+    width: 100px;
+    height: 40px;
+}
+
